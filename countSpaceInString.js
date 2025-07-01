@@ -4,7 +4,7 @@
 let institute = "Institue of computer science & technology";
 
 //define spaceCount method
-spaceCount = (instituteName) => {
+const spaceCount = (instituteName) => {
     let count = 0;
 
     for (let i = 0; i < instituteName.length; i++) {
