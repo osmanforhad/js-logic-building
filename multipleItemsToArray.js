@@ -19,3 +19,8 @@ const users = [
         ]
     },
 ];
+
+let result = users.reduce((prev, curr) => {
+    return [...prev, ...curr.books];
+}, []);
+console.log(result);
