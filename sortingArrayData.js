@@ -7,3 +7,10 @@ let drinks = [
     { name: "Apple", price: 20 },
     { name: "WaterMillon", price: 250 },
 ];
+
+const result = drinks.sort((a, b) => {
+    return a.name.toLowerCase()
+        <
+        b.name.toLowerCase() ? -1 : 1
+});
+console.log(result);
