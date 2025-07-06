@@ -14,3 +14,11 @@ const result = drinks.sort((a, b) => {
         b.name.toLowerCase() ? -1 : 1
 });
 console.log(result);
+/**
+ * sorting array data
+ * price wise
+ */
+const output = drinks.sort((a, b) => {
+    a.price - b.price;
+});
+console.log(output);
